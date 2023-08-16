@@ -7,6 +7,6 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories
 @Configuration
 @EnableJpaRepositories(
     repositoryBaseClass = BaseRepoImpl::class,
-    basePackages = ["hu.szmozes.simplerepository.base"]
+    basePackages = ["hu.szmozes.simplerepository"]
 )
 class RepoConfig
