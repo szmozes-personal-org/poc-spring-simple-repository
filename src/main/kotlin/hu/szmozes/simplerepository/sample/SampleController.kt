@@ -11,7 +11,7 @@ class SampleController(
     @GetMapping("sample")
     fun sample() {
         sampleRepo.hhh()
-        val byAa = sampleRepo.findByAa("some aa")
-        println(byAa.aa)
+        val aa = sampleRepo.findByAa("some aa")
+        println(aa?.aa)
     }
 }
