@@ -5,4 +5,7 @@ import org.springframework.data.repository.NoRepositoryBean
 import java.util.*
 
 @NoRepositoryBean
-interface BaseRepo<T> : JpaRepository<T, UUID>
+interface BaseRepo<T> : JpaRepository<T, UUID>{
+    fun hhh()
+
+}
