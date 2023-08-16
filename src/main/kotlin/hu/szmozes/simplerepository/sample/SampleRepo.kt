@@ -1,9 +1,8 @@
 package hu.szmozes.simplerepository.sample
 
 import hu.szmozes.simplerepository.base.BaseRepo
-import java.util.*
 
-interface SampleRepo : BaseRepo<SampleEntity, UUID> {
+interface SampleRepo : BaseRepo<SampleEntity> {
 
     fun findByAa(aa: String): SampleEntity
 }

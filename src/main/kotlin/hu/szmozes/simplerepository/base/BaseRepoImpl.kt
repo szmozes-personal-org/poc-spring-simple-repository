@@ -3,9 +3,9 @@ package hu.szmozes.simplerepository.base
 import jakarta.persistence.EntityManager
 import org.springframework.data.jpa.repository.support.JpaEntityInformation
 import org.springframework.data.jpa.repository.support.SimpleJpaRepository
-import java.io.Serializable
+import java.util.*
 
-class BaseRepoImpl<T, ID : Serializable> : SimpleJpaRepository<T, ID>, BaseRepo<T, ID> {
+class BaseRepoImpl<T> : SimpleJpaRepository<T, UUID>, BaseRepo<T> {
 
 //    constructor(domainClass: Class<T>, em: EntityManager) : super(domainClass, em)
 
