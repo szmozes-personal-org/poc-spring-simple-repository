@@ -19,11 +19,8 @@ repositories {
 }
 
 dependencies {
-//    implementation("ch.qos.logback:logback-classic:1.2.3")
-//    implementation("ch.qos.logback:logback-core:1.2.3")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.postgresql:postgresql")
-//    implementation("org.slf4j:slf4j-api:1.7.30")
     implementation("org.springframework.boot:spring-boot-starter")
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
     implementation("org.springframework.boot:spring-boot-starter-web")
