@@ -1,6 +1,6 @@
 package hu.szmozes.simplerepository.base
 
-interface HehePrinter {
+interface HhhPrinter {
 
-    fun printHehe()
+    fun hhh()
 }

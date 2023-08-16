@@ -10,7 +10,7 @@ class SampleController(
 
     @GetMapping("sample")
     fun sample() {
-        sampleRepo.printHehe()
+        sampleRepo.hhh()
         val byAa = sampleRepo.findByAa("some aa")
         println(byAa.aa)
     }

@@ -1,11 +1,10 @@
 package hu.szmozes.simplerepository.sample
 
-import hu.szmozes.simplerepository.base.BaseRepo
-import hu.szmozes.simplerepository.base.HehePrinter
-import org.springframework.stereotype.Repository
+import hu.szmozes.simplerepository.base.HhhPrinter
+import org.springframework.data.jpa.repository.JpaRepository
+import java.util.*
 
-@Repository
-interface SampleRepo : BaseRepo<SampleEntity>, HehePrinter {
+interface SampleRepo : JpaRepository<SampleEntity, UUID>, HhhPrinter {
 
     fun findByAa(aa: String): SampleEntity
 }
