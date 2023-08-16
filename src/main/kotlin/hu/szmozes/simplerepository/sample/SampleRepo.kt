@@ -4,5 +4,5 @@ import hu.szmozes.simplerepository.base.BaseRepo
 
 interface SampleRepo : BaseRepo<SampleEntity> {
 
-    fun findByAa(aa: String): SampleEntity
+    fun findByAa(aa: String): SampleEntity?
 }
